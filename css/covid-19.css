@@ -1,0 +1,21 @@
+.covid-19 {
+    width: 947px;
+    height: 187px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.covid-19 h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.covid-19 p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}

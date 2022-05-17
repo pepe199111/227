@@ -1,0 +1,48 @@
+.new-trailer {
+    width: 100vw;
+    height: 750px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.new-trailer__img {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.new-trailer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-trailer__content-container {
+    width: 510px;
+}
+
+.new-trailer__content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.new-trailer__content p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.new-trailer__content .button {
+    width: 198px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-trailer__content .button .fa {
+    font-size: 16px;
+    padding-left: 15px;
+}

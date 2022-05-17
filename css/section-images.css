@@ -1,0 +1,6 @@
+.section-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15px;
+    margin: 60px auto;
+}

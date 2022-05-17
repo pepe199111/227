@@ -1,0 +1,75 @@
+.site-header {
+    background-color: #000000;
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.header-left__logo {
+    color: #ffffff;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header-left__logo span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-left__logo img {
+    max-width: 100%;
+}
+
+.header-left__menu ul {
+    display: flex;
+}
+
+.header-left__menu ul li {
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.header-right {
+    width: 180px;
+    height: 40px;
+    background-color: #ff704a;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right span {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.header-right .fa-user {
+    color: #ffffff;
+    font-size: 18px;
+}
