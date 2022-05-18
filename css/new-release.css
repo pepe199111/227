@@ -1,5 +1,4 @@
 .new-release {
-    width: 100vw;
     background-color: #000000;
     overflow: hidden;
 }
@@ -51,6 +50,6 @@
     margin-bottom: 10px;
 }
 
-.new-release__movie h4 {
+.new-release__movie h5 {
     color: #ffffff;
 }

@@ -4,3 +4,10 @@
     padding: 0 15px;
     margin: 60px auto;
 }
+
+.section-images__tile {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}

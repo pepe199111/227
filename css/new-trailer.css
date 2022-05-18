@@ -1,6 +1,4 @@
 .new-trailer {
-    width: 100vw;
-    height: 750px;
     background-color: #ffffff;
     display: flex;
 }
@@ -23,14 +21,14 @@
 
 .new-trailer__content h2 {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .new-trailer__content p {
     color: #333333;
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .new-trailer__content .button {
